@@ -1,0 +1,38 @@
+/*Este ees el menu*/
+
+nav {
+    background: linear-gradient(to bottom, #01a1d3 50%, #01a1d3 20%, white);
+    color: white;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    width: 10%;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo img {
+    width: 20%;
+    padding: 1% 2% 1% 5%;
+}
+.logo {
+    flex-grow: 3;
+}
+
+.menu a:hover {
+    background-color: white ;
+    opacity: 80%;
+    color: black;
+    border: 5px white solid;
+    border-radius: 5%;
+ 
+}
